@@ -83,3 +83,4 @@ async函数返回的 Promise 对象，必须等到内部所有await命令后面�
         let foo = await fooPromise;
         let bar = await barPromise;
 上面两种写法，getFoo和getBar都是同时触发，这样就会缩短程序的执行时间。
+- await命令只能用在async函数之中，如果用在普通函数，就会报错。
