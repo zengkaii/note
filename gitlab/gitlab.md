@@ -1,3 +1,7 @@
+# 翻译
+
+原文地址 [Gitlab](https://docs.gitlab.com/ee/ci/quick_start/README.html)
+
 # 开始使用GitLab CI/CD
 
 GitLab提供持续集成服务。如果将[.gitlab-ci.yml](https://docs.gitlab.com/ee/ci/yaml/README.html)文件添加到存储库的根目录，并将GitLab项目配置为使用Runner，则每次提交或推送都会触发CI pipelines。  
